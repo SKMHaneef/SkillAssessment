@@ -1,0 +1,16 @@
+{
+  "name": "cawassessment",
+  "version": "1.0.0",
+  "description": "Assessment for Cypress Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome",
+    "testHeaded": "npx cypress run --headed --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1",
+    "cypress-mochawesome-reporter": "^3.7.0"
+  }
+}
